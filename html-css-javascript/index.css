@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.upper_body {
+    background-color: #EAE0D5;
+    height: 100px;
+}
+
+.main_body {
+    background-color: #C6AC8F;
+    height: 100%;
+}
+
+.lower_body {
+    background-color: #5E503F;
+    height: 400px; 
+}
