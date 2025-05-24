@@ -111,8 +111,45 @@
 }
 
 .live_budding {
-    border: 1px solid red;
-    height: 600px;
+    height: 650px;
+    padding: 1rem;
+}
+
+.live_budding .sort_budding {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.sort_budding p {
+    color: #5E503F;
+    font-size: 1.5rem;
+}
+
+.sort_budding select {
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border: none;
+    padding: 0 1rem;
+}
+
+.budding_table {
+    padding: 0 2rem;
+}
+
+.budding_table table {
+    width: 100%;
+    margin-top: 2rem;
+    color: #5E503F;
+}
+
+.budding_table table th, td {
+    padding: 0.7rem;
+    text-align: center;
+    border-bottom: 1px solid #EAE0D5;
 }
 
 /* Footer  */
